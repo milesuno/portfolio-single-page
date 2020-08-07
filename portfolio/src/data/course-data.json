@@ -1,0 +1,221 @@
+[
+	{
+		"id": "c0",
+		"type": "courses",
+		"name": "HarvardX: CS50",
+		"img": [
+			"https://media-exp1.licdn.com/dms/image/C510BAQFVQkFuknNudA/company-logo_200_200/0?e=2159024400&v=beta&t=niQD62sYNKOf0tWA_3w3l90I_FaTbEEq3naBFNIfE5I"
+		],
+		"desc": "HarvardX CS50 course provides a broad and robust understanding of computer science and programming. I learnt how to think algorithmically and solve programming problems efficiently. The course covers concepts like: abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.",
+		"role": "",
+		"tech": "C, Python, SQL, and JavaScript plus CSS and HTML.",
+		"challenge": "I found some algorithms difficult to conceptualise intially, particularly within nested loops",
+		"solution": "I looked at various resources provided on the course and externally such as MDN.",
+		"source": {
+			"url": "",
+			"github": ""
+		}
+	},
+	{
+		"id": "c4",
+		"type": "courses",
+		"name": "CodeYourFuture: React Challenges",
+		"img": [
+			"https://theturingtrust.files.wordpress.com/2018/03/code-your-future1.jpg"
+		],
+		"desc": "React Challenges provides various React App based challenges to teach: Creating reusable components, React Lifecycle , API Request/Responses.",
+		"role": "",
+		"tech": "HTML, CSS, JSX, JavaScript, React",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": "https://github.com/milesuno/cyf-react-challenges"
+		}
+	},
+	{
+		"id": "c5",
+		"type": "courses",
+		"name": "CodeYourFuture: JS Challenges",
+		"img": [
+			"https://theturingtrust.files.wordpress.com/2018/03/code-your-future1.jpg"
+		],
+		"desc": "JS Challenges provides lessons the teach the fundamentals of programming.Topics included but were not limited to: variables, functions, data structures, promises, ES6, DOM manipulation, Fetch Requests.",
+		"role": "FrontEnd Dev",
+		"tech": "HTML, CSS, JavaScript",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": "https://github.com/milesuno/js-exercises"
+		}
+	},
+	{
+		"id": "c6",
+		"type": "courses",
+		"name": "CodeYourFuture: NodeJS",
+		"img": [
+			"https://theturingtrust.files.wordpress.com/2018/03/code-your-future1.jpg"
+		],
+		"desc": "NodeJS Challenges provides various applications that request and post data. I learnt to build express servers to handle CRUD operations in REST API.",
+		"role": "FrontEnd Dev",
+		"tech": "JavaScript, Glitch, Express, Postman, MongoDB",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "https://glitch.com/~cyf-glossary-api",
+			"github": ""
+		}
+	},
+	{
+		"id": "c7",
+		"type": "courses",
+		"name": "CodeYourFuture: MongoDB",
+		"img": [
+			"https://theturingtrust.files.wordpress.com/2018/03/code-your-future1.jpg"
+		],
+		"desc": "MongoDB Challenges taught how MongoDB stores data internal as well as how to perform CRUD within the system.",
+		"role": "",
+		"tech": "HTML, CSS, JavaScript, Glitch, Express, Postman, MongoDB",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "https://glitch.com/~miles-mongo-db",
+			"github": ""
+		}
+	},
+	{
+		"id": "c8",
+		"type": "courses",
+		"name": "CodeYourFuture: TDD",
+		"img": [
+			"https://theturingtrust.files.wordpress.com/2018/03/code-your-future1.jpg"
+		],
+		"desc": "BarterAnything is a Cashless Ecommerce Platform",
+		"role": "FrontEnd Dev",
+		"tech": "HTML, CSS, JavaScript, React",
+		"challenge": "Development",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": "https://github.com/milesuno/js-exercises-tdd"
+		}
+	},
+	{
+		"id": "c9",
+		"type": "courses",
+		"name": "Computational Thinking",
+		"img": [
+			"data:image/png;base64,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"
+		],
+		"desc": "Introduction to computational thinking explores applications of computational thinking in various disciplines, ranging from biology and physics to economics and sport science.",
+		"role": "",
+		"tech": "",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": ""
+		}
+	},
+	{
+		"id": "c10",
+		"type": "courses",
+		"name": "Design Thinking",
+		"img": [
+			"data:image/png;base64,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"
+		],
+		"desc": "Design Thinking shows how it can be applied in a wide range of contexts, from the personal to the global. Lessons provide opporunities to investigate and think creatively about design problems and opportunities. Lesson also teach to develop visual literacy and articulacy to explain design decisions",
+		"role": "",
+		"tech": "",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": ""
+		}
+	},
+	{
+		"id": "c11",
+		"type": "courses",
+		"name": "Web Application Architecture",
+		"img": [
+			"data:image/png;base64,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"
+		],
+		"desc": "An introduction to web applications architecture, provides an overview of the design and implementation of computer software that runs on web servers, instead of running solely on desktop computers, laptops or mobile devices.",
+		"role": "",
+		"tech": "",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": ""
+		}
+	},
+	{
+		"id": "c12",
+		"type": "courses",
+		"name": "Development Process",
+		"img": [
+			"data:image/png;base64,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"
+		],
+		"desc": "Software Development describes key activities in software development and the role of modelling. The lessons explains key concepts in software development such as risk and quality. The lessons also shows the basics of an object-oriented approach to software development.",
+		"role": "",
+		"tech": "",
+		"challenge": "",
+		"solution": "",
+		"source": {
+			"url": "",
+			"github": ""
+		}
+	},
+	{
+		"id": "c1",
+		"type": "courses",
+		"name": "FreeCodeCamp",
+		"img": [
+			"https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg"
+		],
+		"desc": "FreeCodeCamp is a online resource for learning and practicing various programming languages and concepts. I completed the courses: HTML, CSS, JavaScript and React. My account is linked below.",
+		"role": "",
+		"tech": "HTML, CSS, JavaScript, React",
+		"challenge": "I found some algorhythms difficult to conceptualise intially, particularly within nested loops",
+		"solution": "I looked at various resource (such as MDN) to further understand underlying concepts",
+		"source": {
+			"url": "https://www.freecodecamp.org/fcce86321e6-d662-498d-a726-3f2e53d58f36",
+			"github": ""
+		}
+	},
+	{
+		"id": "c2",
+		"type": "courses",
+		"name": "JavaScript 30",
+		"img": [
+			"https://tfrommen.de/wp-content/uploads/javascript30-hero-1920x720.jpg"
+		],
+		"desc": "JavaScript 30 is a course to learn and practice Vanilla JavaScript building 30 different projects. I completed the JavaScript 30 challenges and linked them below",
+		"role": "",
+		"tech": "JavaScript",
+		"challenge": "Learning some JavaScript Objects and Methods that are not utilised often in development",
+		"solution": "Reading the documentation on MDN and watching video tutorials to deepen my understanding",
+		"source": {
+			"url": "https://github.com/milesuno/javascript-30",
+			"github": ""
+		}
+	},
+	{
+		"id": "c3",
+		"type": "courses",
+		"name": "SoloLearn",
+		"img": ["https://pbs.twimg.com/media/EAmfMkvUcAAXiHK.jpg"],
+		"desc": "SoloLearn is a online resource for learning and practicing various programming languages and concepts. I completed the courses: HTML, CSS, JavaScript. My account is linked below",
+		"role": "",
+		"tech": "HTML, CSS, JavaScript",
+		"challenge": "Development",
+		"solution": "Grind",
+		"source": {
+			"url": "https://www.sololearn.com/Profile/7421850#",
+			"github": ""
+		}
+	}
+]

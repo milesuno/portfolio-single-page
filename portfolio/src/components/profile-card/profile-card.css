@@ -1,0 +1,36 @@
+.profile-card {
+	align-self: center;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.7);
+	top: 95px;
+	/* right: 30px; */
+	border: 3px solid white;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.profile-card-img {
+	width: 225px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.profile-card h1 {
+	width: 100%;
+	padding: 0;
+	margin: 10px 0px;
+	background: black;
+	color: white;
+	height: fit-content;
+	line-height: unset;
+}
+
+.profile-card a {
+	text-decoration: none;
+}
+
+@media (max-width: 696px) {
+	.landing-page-a {
+		/* top: 70%; */
+	}
+}

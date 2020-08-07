@@ -1,0 +1,280 @@
+/* FIX: Add media query for display height to set align-items to center on .modal */
+@keyframes loadingGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	100% {
+		background-position: -200% 0%;
+	}
+}
+
+@keyframes zoom-in {
+	0% {
+		opacity: 0;
+		transform: scale(0.7);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes zoom-out {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.7);
+	}
+}
+/*Desktop*/
+
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	background: black;
+}
+ul a li {
+	text-decoration: none;
+}
+.main-wrapper {
+	margin: 80px 0px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1024px;
+}
+
+.main-wrapper-loader {
+	margin: 100px 0px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1024px;
+}
+
+.elements-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.page-width {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: white;
+
+	width: 97%;
+}
+
+.single-page-content-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+
+h1 {
+	height: 60px;
+	width: 95%;
+	background: black;
+	color: white;
+	align-self: center;
+	padding-left: 7.5px;
+	line-height: 60px;
+}
+
+h1:empty {
+	height: inherit;
+	width: inherit;
+	background: #ccc;
+	margin: 0;
+	padding: 0;
+	/* background-image: linear-gradient(grey, grey);
+	background-size: 150px 35px;
+	background-position: 10px;
+	background-repeat: no-repeat; */
+}
+
+.loader {
+	content: "";
+	background-image: linear-gradient(to left, #ccc 0, #eee);
+	position: absolute;
+	height: inherit;
+	width: inherit;
+	left: 0;
+	top: 0;
+	background-position: 0 0;
+	background-size: 200% 200%;
+	background-repeat: no-repeat;
+	animation: loadingGradient 0.3s linear infinite;
+}
+
+.loader-size-wrapper {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	margin: 15px 0;
+}
+
+.indent {
+	/* top: 15px; */
+	left: 10px;
+}
+.large {
+	width: 225px;
+}
+
+.loader-bg {
+	background: black;
+	height: 60px;
+	width: 100%;
+	position: relative;
+	align-self: center;
+}
+
+.loader-bg-95 {
+	background: black;
+	height: 60px;
+	width: 95%;
+	position: relative;
+	align-self: center;
+}
+
+.loader-bg-none {
+	height: 60px;
+	width: 95%;
+	position: relative;
+	align-self: center;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
+h2:empty {
+	height: inherit;
+	width: inherit;
+	background: #ccc;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	width: 95%;
+	align-self: center;
+}
+
+h3:empty {
+	height: inherit;
+	width: inherit;
+	background: #ccc;
+	background-size: 10% 100%;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	/* position: fixed; */
+	background: black;
+	/* height: 100px; */
+	width: 100%;
+}
+
+small {
+	    color: white;
+    margin: 50px 0;
+}
+
+/* Modal  */
+.modal {
+	display: flex; /*Hidden by default*/
+	position: fixed; /* Stay in place */
+	z-index: 1001; /* Sit on top */
+	/* padding-top: 100px; Location of the box */
+	justify-content: center;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	background-color: #fefefe;
+	margin: 0 auto;
+	/* padding: 20px; */
+	/* border: 1px solid #888; */
+	height: fit-content;
+	animation: zoom-in 0.3s 1;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/*Tablet*/
+
+@media (max-width: 1024px) {
+	.nav {
+		width: 97%;
+	}
+
+	.main-wrapper {
+		width: 100%;
+	}
+
+	.main-wrapper-loader {
+		width: 100%;
+	}
+
+	.h1 {
+		width: 90%;
+		align-self: center;
+	}
+}
+/*Mobile*/
+
+@media (max-width: 421px) {
+	.main-wrapper {
+		/* margin-top: 80px; */
+		width: 100%;
+	}
+
+	.main-wrapper-loader {
+		margin-top: 100px;
+		width: 100%;
+	}
+}

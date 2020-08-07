@@ -1,0 +1,17 @@
+.single-page-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+@media (max-width: 768px) {
+	.single-page-content-wrapper {
+		width: 80%;
+	}
+}
+
+@media (max-width: 670px) {
+	.single-page-content-wrapper {
+		width: 90%;
+	}
+}

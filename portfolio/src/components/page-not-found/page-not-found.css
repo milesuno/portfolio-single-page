@@ -1,0 +1,71 @@
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideCoveringBlock {
+	0% {
+		transform: translate(20%, 0);
+	}
+
+	100% {
+		transform: translate(68%, 0);
+	}
+}
+.pnf-main-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	overflow: hidden;
+}
+
+.pnf-wrapper {
+	background-color: black;
+	position: relative;
+}
+
+.pnf-covering-block {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: black;
+    transform: translate(69%, 0);
+    animation: slideCoveringBlock 4s 1 ease-in-out;
+}
+
+.pnf-message {
+	color: white;
+	font-size: xxx-large;
+}
+
+.cursor {
+	position: absolute;
+	background-color: yellow;
+	animation: blink 0.5s infinite;
+	height: 50%;
+	width: 35px;
+}
+
+.pnf-home-btn {
+	align-self: center;
+    animation: pulse 2s infinite;
+    position: fixed;
+    top: 515px;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 3px solid white;
+    border-radius: 5%;
+}
